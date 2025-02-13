@@ -52,7 +52,7 @@ onDelete(index);
         title: Text(
           _contractDetails[index].name,
           style: TextStyle(
-              color: Colors.red, fontWeight: FontWeight.w500, fontSize: 20),
+              color: Colors.red, fontWeight: FontWeight.w500, fontSize: 22),
         ),
         subtitle: Text(_contractDetails[index].number),
         trailing: Icon(
